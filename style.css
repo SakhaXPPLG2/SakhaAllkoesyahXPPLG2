@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #272f37;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 3px solid rgb(50, 97, 52);
+}
+.logo {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: rgb(74, 180, 158);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 255, 204);
+    transition: 0.5s;
+}
+
+.btn {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.btn2 {
+    background-color: rgb(0, 55, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 19, 113);
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+}
+
+.btn2:hover {
+    transform: scale(1.1);
+    border: 2px solid rgb(18, 0, 105);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.image {
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    bottom: 0;
+    top: 180px;
+    right: 30px;
+    transform: rotate(0deg);
+}
+
+.image img {
+    height: 95%;
+    width: 65%;
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+    transform: translateX(5%);
+}
+
+.content {
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(44, 79, 193);
+    font-size: 65px;
+    margin: 20px 0 20px;
+}
+
+h3 {
+    color: rgb(255, 191, 54);
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.content a {
+    font-size: 20px;
+    background: red;
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #202870;
+}
+
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(26, 81, 87);
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.button {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+
+.button:hover {
+    background-color: black;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.service {
+    background: #25459c;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 270px;
+    padding: 20px 35px;
+    background: #07272d;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: rgb(255, 255, 255);
+}
+
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.pra p a {
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+}
+
+.pra p a:hover {
+    background-color: black;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.skill {
+    background:#495866;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.skill-bar p {
+    text-align: left;
+}
+
+.skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.html {
+    width: 27%;
+    background: rgb(30, 255, 0);
+}
+
+.css {
+    width: 19%;
+    background-color: rgb(30, 255, 0);
+}
+
+.javascript {
+    width: 32%;
+    background: rgb(30, 255, 0);
+}
+
+.react {
+    width: 5%;
+    background-color: rgb(255, 0, 0);
+}
+
+.php {
+    width: 16%;
+    background: rgb(30, 255, 0);
+}
+
+.python {
+    width: 12%;
+    background-color: rgb(30, 255, 0);
+}
+
+.mysql {
+    width: 6%;
+    background: rgb(255, 0, 0);
+}
+
+.firebase {
+    width: 3%;
+    background-color: rgb(255, 0, 0);
+}
+
+.figma {
+    width: 74%;
+    background-color: rgb(199, 255, 205);
+    color: black;
+}
+
+.sketch {
+    width: 43%;
+    background: rgb(30, 255, 0);
+}
+
+.photoshop {
+    width: 66%;
+    background-color: rgb(199, 255, 205);
+    color: black;
+}
+
+.contact-me {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #142624;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-box {
+    color: white;
+}
+
+.contact-box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact {
+    width: 25%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+
+.contact h4 {
+    color: red;
+    padding-bottom: 10px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #444862;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.sosial {
+    display: flex;
+}
+
+.sosial a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: red;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    border: 2px solid white;
+}
+
+.sosial a:hover {
+    transform: scale(1.3);
+    transition: .5s;
+    background: black;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.end {
+    position: absolute ;
+    color: white;
+    bottom: 65px;
+    font-size: 16px;
+}
